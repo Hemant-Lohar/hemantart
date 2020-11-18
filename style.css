@@ -1,0 +1,132 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(238, 238, 238);
+    background-repeat: no-repeat;
+}
+.my-container{
+   
+}
+.active{
+    background-color: #9dd9fa;
+    color: turquoise;
+}
+#menu{
+
+}
+#navbarNav{
+	
+	font-size: large;
+}
+#navbarNav li :hover{
+    background-color: #0077b6;
+    color: rgb(255, 255, 255);
+}
+.shape1 img{
+	width: 40%;
+}
+#jumbo{
+    background-color: #51defa
+
+}
+#jumbo p{
+    background-color: #b4f2ff;
+}
+.button1{
+    width: fit-content;
+    height: fit-content;
+    border: 0;
+    padding: 8px 10px;
+    outline: none;
+    color:white;
+    background: linear-gradient(to right ,#F63333, #D41768 );
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+.button1 img{
+    width: 15px;
+    display: none;
+    size: 50px;
+}
+.button1:hover img{
+    display: block;
+}
+.button1:hover{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sectitle1{
+	flex-basis: 40%;
+	position: relative;
+	margin-left: 50px;
+}
+#sectitle1 h2{
+	font-size: 55px;
+	margin: 20px 0px;
+}
+
+#sectitle1::after{
+    content: '';
+    width: 10px;
+    height: 50%;
+    background: linear-gradient(to right ,#F63333, #D41768 );
+    position: absolute;
+    left: -40px;
+    top: 40px;
+}
+.col-img{
+    display: inline-block;
+    position: relative;
+    flex-basis: 60%;
+    align-items: center;
+    margin-left: 10px;
+    max-width: 50%;
+}
+#sketch{
+	padding: 10px;
+    width: 230px;
+    height: 230px;
+}
+.my-container{
+	margin: 50px;
+}
+#youtube{
+    text-align: center;
+    
+}
+#youtube img{
+    margin-top: 30px;
+}
+#videos{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+@media only screen and (max-width: 480px){
+
+    #sectitle1{
+        flex-basis: 40%;
+        position: relative;
+        margin-left: 80px;
+    }
+    #sectitle1 h2{
+        font-size: 50px;
+        margin: 20px 0px;
+    }
+    .col-img{
+        display: inline-block;
+        position: relative;
+        flex-basis: 60%;
+        align-items: center;
+        margin-left: 50px;
+        margin-top: 30px;
+        max-width: 50%;
+    }
+}
