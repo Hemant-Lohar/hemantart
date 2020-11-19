@@ -4,21 +4,23 @@
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: rgb(238, 238, 238);
-    background-repeat: no-repeat;
+    background-image: url(images/bglight.png);
 }
+#container1{
+}
+
 .my-container{
-   
+
+    
 }
 .active{
     background-color: #9dd9fa;
     color: turquoise;
 }
 #menu{
-
+    background-color: white;
 }
-#navbarNav{
-	
+#navbarNav{	
 	font-size: large;
 }
 #navbarNav li :hover{
@@ -29,8 +31,9 @@ body{
 	width: 40%;
 }
 #jumbo{
-    background-color: #51defa
-
+    background-color: #51defa;
+    background-image: url(images/Mask\ Group\ 2.jpg);
+    background-position: center;}
 }
 #jumbo p{
     background-color: #b4f2ff;
@@ -87,11 +90,13 @@ body{
     align-items: center;
     margin-left: 10px;
     max-width: 50%;
+    border: 10px;
 }
 #sketch{
 	padding: 10px;
     width: 230px;
     height: 230px;
+    
 }
 .my-container{
 	margin: 50px;
@@ -128,5 +133,11 @@ body{
         margin-left: 50px;
         margin-top: 30px;
         max-width: 50%;
+    }
+    #sketch{
+        padding: 10px;
+        width: 230px;
+        height: 230px;
+        
     }
 }
