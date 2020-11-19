@@ -6,13 +6,7 @@
 body{
     background-image: url(images/bglight.png);
 }
-#container1{
-}
 
-.my-container{
-
-    
-}
 .active{
     background-color: #9dd9fa;
     color: turquoise;
@@ -31,7 +25,6 @@ body{
 	width: 40%;
 }
 #jumbo{
-    background-color: #51defa;
     background-image: url(images/Mask\ Group\ 2.jpg);
     background-position: center;}
 }
